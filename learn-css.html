@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style type="text/css" >
+            /*하위 선택자*/
+            #item-list p {
+                /*하위 아이템 리스트 둘 중에 모든 p 태그를 선택*/
+                color: red;
+            }
+            /* 자식선택자 */
+            #item-list > p {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <!--하위 선택자, 자식 선택자-->
+
+        <div id="item-list">
+            <p>첫번째 자식 아이템1</p>
+            <p>첫번째 자식 아이템2</p>
+            <div>
+                <p>두번째 자식 아이템1</p>
+                <p>두번째 자식 아이템2</p>
+            </div>
+        </div>
+    </body>
+
+</html>

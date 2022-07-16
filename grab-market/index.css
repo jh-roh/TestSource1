@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+#body {
+  height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+
+  padding-bottom: 34px;
+}
+
+#footer {
+  height: 200px;
+  background-color: red;
+}
+
+#banner {
+  height: 300px;
+  background-color: yellow;
+}
+
+#header-area {
+  width: 1024px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#header-area > img {
+  width: 128px;
+  height: 38px;
+}
+
+#banner > img {
+  width: 100%;
+}
+
+#body > h1 {
+  margin-top: 16px;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.product-card {
+  width: 180px;
+  height: 300px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: 5px solid rgb(230, 230, 230);
+  border-radius: 12px;
+  overflow: hidden;
+  /* 자식이 부모를 침범하면 숨기는 속성 */
+}
+
+.product-img {
+  width: 100%;
+  height: 210px;
+}
+
+.product-contents {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.product-name {
+  font-size: 14px;
+}
+.product-price {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product-seller {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.product-avatar {
+  width: 24px;
+}
