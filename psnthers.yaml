@@ -2,7 +2,11 @@ team: panthers
 
 manager: Sebastian
 
+<<<<<<< HEAD
 coach: Shirley
+=======
+coach: Raymond
+>>>>>>> 3d1dabd (Edit Panthers)
 
 members:
 - Violet
